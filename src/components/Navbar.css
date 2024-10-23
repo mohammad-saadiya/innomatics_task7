@@ -1,0 +1,32 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive styling for Navbar */
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .nav-link {
+      margin: 0 15px;
+    }
+  }
+  
